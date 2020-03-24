@@ -24,7 +24,7 @@ sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 
 
 #feh --bg-scale ~/.config/herbstluftwm/121420.jpg &
-feh --bg-fill /usr/share/backgrounds/vicyos-wallpapers/121420.jpg &
+feh --bg-fill ~/.config/herbstluftwm/121420.jpg
 #feh --bg-scale /usr/share/backgrounds/arcolinux/abstract-warm-heart-4560x2160.jpg
 
 conky --daemonize --pause=1 &
@@ -308,7 +308,7 @@ hc unlock
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 
 #Dualmonitor setup
-# hc detect_monitors
+hc detect_monitors
 #hc set_monitors 1920x1080+0+0 1920x1080+1920+0
 
 #room for polybar on both monitors
