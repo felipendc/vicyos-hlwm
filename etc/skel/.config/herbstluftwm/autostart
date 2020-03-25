@@ -30,7 +30,7 @@ feh --bg-fill ~/.config/herbstluftwm/121420.jpg
 conky --daemonize --pause=1 &
 
 
-variety &
+#variety &
 nm-applet &
 #pamac-tray &
 xfce4-power-manager &
