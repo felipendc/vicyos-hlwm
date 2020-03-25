@@ -22,21 +22,17 @@ xsetroot -cursor_name left_ptr &
 #keybindings are in config of sxhkd - interchangeable with other TWM
 sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 
+feh --bg-fill ~/.config/herbstluftwm/bluesky_vicyos.jpg
 
-#feh --bg-scale ~/.config/herbstluftwm/121420.jpg &
-feh --bg-fill ~/.config/herbstluftwm/121420.jpg
-#feh --bg-scale /usr/share/backgrounds/arcolinux/abstract-warm-heart-4560x2160.jpg
+#conky --daemonize --pause=1 &
 
-conky --daemonize --pause=1 &
-
-
-#variety &
 nm-applet &
-#pamac-tray &
 xfce4-power-manager &
 numlockx on &
 blueberry-tray &
 run volumeicon &
+#variety &
+#pamac-tray &
 #nitrogen --restore &
 # caffeine &
 # vivaldi-stable &
@@ -325,4 +321,4 @@ hc pad 1 30
 ~/.config/polybar/launch.sh
 
 # The following command will execute vicyos_plank_init.sh (Plank) manually.
-sh $HOME/.config/herbstluftwm/vicyos_plank_init.sh 
+sh $HOME/.config/herbstluftwm/vicyos_plank_init.sh
