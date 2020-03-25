@@ -6,7 +6,7 @@
 # SUPER + FUNCTION KEYS
 #################################################################
 
-# Vivaldi
+# Resolve
 super + F1
 	davince-resolve
 
@@ -62,9 +62,9 @@ super + F12
 super + e
     atom
 
-#Browser
+#Chromium
 super + w
-    vivaldi-stable
+    chromium -no-default-browser-check
 
 #Conky-toggle
 super + c
@@ -174,10 +174,6 @@ ctrl + alt + b
 #Catfish
 ctrl + alt + c
      catfish
-
-#Chromium
-ctrl + alt + g
-    chromium -no-default-browser-check
 
 #Evolution
 ctrl + alt + e
