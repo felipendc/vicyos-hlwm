@@ -8,11 +8,11 @@
 
 # Davince-Resolve
 super + F1
-	/opt/resolve/bin/resolve
+    /opt/resolve/bin/resolve
 
 # Atom
 super + F2
-	winff
+    winff
 
 #Inkscape
 super + F3
