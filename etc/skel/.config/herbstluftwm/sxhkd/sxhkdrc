@@ -6,9 +6,9 @@
 # SUPER + FUNCTION KEYS
 #################################################################
 
-# Resolve
+# Davince-Resolve
 super + F1
-	davince-resolve
+	/opt/resolve/bin/resolve
 
 # Atom
 super + F2
