@@ -303,8 +303,36 @@ hc unlock
 #xrandr --output LVDS1 --mode 1366x768 --output DP3 --mode 1920x1080 --right-of LVDS1
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 
+
+
+
+
+
+####################################################
+###############  Vicyos-Laptop-Monitors ############
+####################################################
+
+## Follow the pattern to mirror the monitor:
+
+# Open a terminal and type: xrandr 
+
+#xrandr –output monitor-id –primary resolution_fps
+#xrandr -ouput monitor-id -secondary resolution_fps
+
+#xrandr –output LVDS1 –primary 1366x768_59.98
+#xrandr -ouput HDMI1 -secondary 1920x1080i_60.00
+
+
+####################################################
+####################################################
+
+
+
+
+
+
 #Dualmonitor setup
-hc detect_monitors
+#hc detect_monitors
 #hc set_monitors 1920x1080+0+0 1920x1080+1920+0
 
 #room for polybar on both monitors
