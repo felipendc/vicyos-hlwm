@@ -34,9 +34,9 @@ super + F6
 super + F7
     virtualbox
 
-#Thunar
+#Polybar-Reload
 super + F8
-    thunar
+    ~/.config/polybar/launch.sh
 
 #Evolution
 super + F9
@@ -62,9 +62,9 @@ super + F12
 super + e
     atom
 
-#Chromium
+#Google-Chrome
 super + w
-    chromium -no-default-browser-check
+    /opt/google/chrome/google-chrome
 
 #Conky-toggle
 super + c
