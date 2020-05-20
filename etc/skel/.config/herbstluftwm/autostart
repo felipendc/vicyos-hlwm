@@ -22,7 +22,7 @@ xsetroot -cursor_name left_ptr &
 #keybindings are in config of sxhkd - interchangeable with other TWM
 sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 
-feh --bg-fill ~/.config/herbstluftwm/bluesky_vicyos.jpg
+#feh --bg-fill ~/.config/herbstluftwm/bluesky_vicyos.jpg
 
 #conky --daemonize --pause=1 &
 
@@ -31,7 +31,7 @@ xfce4-power-manager &
 numlockx on &
 blueberry-tray &
 run volumeicon &
-#variety &
+variety &
 #pamac-tray &
 #nitrogen --restore &
 # caffeine &
