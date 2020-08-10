@@ -320,7 +320,7 @@ hc unlock
 #xrandr -output monitor-id -secondary resolution_fps
 
 #xrandr –output LVDS1 –primary 1366x768_59.98
-#xrandr -output HDMI1 -secondary 1920x1080i_60.00
+#xrandr -ouput HDMI1 -secondary 1920x1080i_60.00
 
 
 ####################################################
