@@ -317,10 +317,10 @@ hc unlock
 # Open a terminal and type: xrandr 
 
 #xrandr –output monitor-id –primary resolution_fps
-#xrandr -ouput monitor-id -secondary resolution_fps
+#xrandr -output monitor-id -secondary resolution_fps
 
 #xrandr –output LVDS1 –primary 1366x768_59.98
-#xrandr -ouput HDMI1 -secondary 1920x1080i_60.00
+#xrandr -output HDMI1 -secondary 1920x1080i_60.00
 
 
 ####################################################
