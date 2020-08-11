@@ -22,7 +22,8 @@ xsetroot -cursor_name left_ptr &
 #keybindings are in config of sxhkd - interchangeable with other TWM
 sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 
-feh --bg-fill ~/.config/herbstluftwm/bluesky_vicyos.jpg
+#feh --bg-fill ~/.config/herbstluftwm/bluesky_vicyos.jpg
+feh --bg-fill /usr/share/backgrounds/vicyos-wallpapers/wierschem_germany_castle_trail_evening_sky_119771_3840x2160.jpg
 
 #conky --daemonize --pause=1 &
 
@@ -206,22 +207,22 @@ hc attr theme.normal.color '#141414'
 hc attr theme.urgent.color orange
 
 # Set
-hc set always_show_frame 1
-hc set focus_follows_mouse 1
+hc set always_show_frame 0
+hc set focus_follows_mouse 2
 hc set frame_border_active_color '#808080'
 hc set frame_border_normal_color '#141414'
 hc set frame_bg_normal_color '#141414'
 hc set frame_bg_active_color '#000000'
-hc set frame_border_width 3
+hc set frame_border_width 2
 hc set frame_bg_transparent 1
 hc set frame_transparent_width 0
-hc set frame_gap 13
+hc set frame_gap 10
 hc set frame_padding 0
 hc set mouse_recenter_gap 0
 hc set smart_frame_surroundings 1
 hc set smart_window_surroundings 0
 hc set tree_style '╾│ ├└╼─┐'
-hc set window_gap 13
+hc set window_gap 10
 
 
 # RULES
